@@ -9,7 +9,7 @@ var noDuplicatesCheckbox = document.querySelector("#noDuplicates");
 
 // Get references to the #generate element
 // Add event listener to generate button
-generateBtn.addEventListener("click", generatePassword);
+generateBtn.addEventListener("click", generatePassword); 
 
 // Write password to the #password input
 function generatePassword() {
